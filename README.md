@@ -55,7 +55,9 @@ WMEP-ETA/
 ---
 
 ## 🚀 How to Reproduce
-[Uploading run.ipynb…]()
+
+We recommend using the interactive notebook for evaluation:
+👉 [Open in Google Colab](https://colab.research.google.com/github/7i10/WMEP-ETA/blob/main/run.ipynb)
 
 ---
 
