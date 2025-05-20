@@ -60,8 +60,8 @@ def get_args():
     parser.add_argument('--alpha', default=8, type=float, help='Step size')
     parser.add_argument('--delta-init', default='random', choices=['zero', 'random', 'previous', 'normal'], help='Perturbation initialization method')
     # ouput
-    parser.add_argument('--out-dir', default='TDAT_CIFAR10', type=str, help='Output directory')
-    parser.add_argument('--out-path', default='test', type=str, help='Output path')
+    parser.add_argument('--out-dir', default='CIFAR10', type=str, help='Output directory')
+    parser.add_argument('--out-path', default='log', type=str, help='Output path')
     parser.add_argument('--log', default="test.log", type=str)
     return parser.parse_args()
 
@@ -178,8 +178,7 @@ def main():
         model = ResNet34()
     # model=torch.nn.DataParallel(model)
     model = model.cuda()
-    # num_params = sum(p.numel() for p in model.parameters())
-    # print(f"モデルの総パラメータ数: {num_params}")
+    
     model.train()
     teacher_model = EMA(model)
     opt = torch.optim.SGD(model.parameters(), lr=args.lr_max, momentum=args.momentum, weight_decay=args.weight_decay)
