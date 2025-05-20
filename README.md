@@ -61,7 +61,19 @@ I recommend using the interactive notebook for evaluation:
 
 ---
 
-## 📈 Sample Results
+## 📊 Experimental Results
+
+### 🔹 CIFAR-10 Results
+
+![CIFAR-10 Table](./image/cifar10_results_table.png)
+
+![CIFAR-10 Accuracy Curve](./image/cifar10_accuracy_curve.png)
+
+### 🔹 CIFAR-100 Results
+
+![CIFAR-100 Table](./image/cifar100_results_table.png)
+
+![CIFAR-100 Accuracy Curve](./image/cifar100_accuracy_curve.png)
 
 ---
 
