@@ -46,7 +46,7 @@ def get_args():
     parser.add_argument('--model', default='ResNet18', type=str, help='model name')
     parser.add_argument('--n_ex', type=int, default=10000)
     parser.add_argument('--batch_size', type=int, default=500)
-    parser.add_argument('--out_dir', type=str, default='CIFAR10_test_results')
+    parser.add_argument('--out_dir', type=str, default='CIFAR10/test_result')
     parser.add_argument('--out_best_file', type=str, default='_best_log.txt')
     parser.add_argument('--out_last_file', type=str, default='_last_log.txt')
 
@@ -60,6 +60,11 @@ args = get_args()
 # ログファイルのパス設定
 best_model_logfile = os.path.join(args.out_dir, args.out_best_file)
 last_model_logfile = os.path.join(args.out_dir, args.out_last_file)
+
+# ディレクトリを作成（存在しない場合のみ）
+os.makedirs(args.out_dir, exist_ok=True)
+
+# 既存ログファイルを削除（任意）
 if os.path.exists(best_model_logfile):
     os.remove(best_model_logfile)
 if os.path.exists(last_model_logfile):
@@ -89,8 +94,7 @@ def load_model(model_name, model_path, logger):
     model = model.to(device)
     checkpoint = torch.load(model_path, weights_only=False)
     model.load_state_dict(checkpoint)
-    # num_params = sum(p.numel() for p in model.parameters())
-    # print(f"モデルの総パラメータ数: {num_params}")
+    
     model.eval()
     logger.info(f"Loaded model from {model_path}")
     return model
