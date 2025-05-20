@@ -1,0 +1,444 @@
+[2025/01/20 12:41:15] - Namespace(model='ResNet18', batch_size=128, data_dir='CIFAR10', epochs=110, lr_schedule='multistep', milestone1=100, milestone2=105, lr_min=0.0, lr_max=0.1, weight_decay=0.0005, momentum=0.9, seed=0, inner_gamma=0.15, outer_gamma=0.15, beta=0.6, lamda=0.65, batch_m=0.75, eta=0.75, epochs_reset=10, momentum_decay=0.3, EMA_value=0.82, epsilon=8, alpha=8, delta_init='random', out_dir='TDAT_CIFAR10', out_path='WMEP_DL_COLA', log='output.log')
+[2025/01/20 12:41:56] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:41:56] - 0 	 22.9 	 	 0.1000 	 0.2072  	 0.9344 	 2.1622 	 2.1649 	 0.2055
+[2025/01/20 12:42:13] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:42:13] - 1.8996 	 	 0.3361 	 1.9419 	 0.2429
+[2025/01/20 12:42:35] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:42:35] - 1 	 21.9 	 	 0.1000 	 0.6036  	 0.9160 	 1.9983 	 2.0029 	 0.2566
+[2025/01/20 12:42:52] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:42:52] - 1.8554 	 	 0.3908 	 1.9010 	 0.2930
+[2025/01/20 12:43:13] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:43:13] - 2 	 20.9 	 	 0.1000 	 0.3069  	 0.8981 	 1.9391 	 1.9182 	 0.2911
+[2025/01/20 12:43:30] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:43:30] - 1.7431 	 	 0.4305 	 1.8084 	 0.3067
+[2025/01/20 12:43:52] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:43:52] - 3 	 21.3 	 	 0.1000 	 0.4322  	 0.8807 	 1.8931 	 1.8761 	 0.3180
+[2025/01/20 12:44:09] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:44:09] - 1.6725 	 	 0.4728 	 1.7520 	 0.3337
+[2025/01/20 12:44:31] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:44:31] - 4 	 21.6 	 	 0.1000 	 0.5243  	 0.8637 	 1.8545 	 1.8367 	 0.3452
+[2025/01/20 12:44:48] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:44:48] - 1.6093 	 	 0.5113 	 1.7047 	 0.3561
+[2025/01/20 12:45:10] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:45:10] - 5 	 22.1 	 	 0.1000 	 0.6010  	 0.8471 	 1.8185 	 1.8015 	 0.3716
+[2025/01/20 12:45:27] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:45:27] - 1.5523 	 	 0.5525 	 1.6637 	 0.3771
+[2025/01/20 12:45:49] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:45:49] - 6 	 22.0 	 	 0.1000 	 0.6061  	 0.8310 	 1.7885 	 1.7689 	 0.3997
+[2025/01/20 12:46:06] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:46:06] - 1.5194 	 	 0.5808 	 1.6437 	 0.3946
+[2025/01/20 12:46:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:46:29] - 7 	 22.3 	 	 0.1000 	 0.6777  	 0.8153 	 1.7698 	 1.7458 	 0.4218
+[2025/01/20 12:46:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:46:46] - 1.4887 	 	 0.6071 	 1.6229 	 0.4164
+[2025/01/20 12:47:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:47:08] - 8 	 22.4 	 	 0.1000 	 0.6931  	 0.8000 	 1.7553 	 1.7238 	 0.4434
+[2025/01/20 12:47:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:47:25] - 1.4724 	 	 0.6285 	 1.6134 	 0.4297
+[2025/01/20 12:47:48] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:47:48] - 9 	 22.3 	 	 0.1000 	 0.6675  	 0.7850 	 1.7551 	 1.7157 	 0.4568
+[2025/01/20 12:48:05] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:48:05] - 1.4721 	 	 0.6425 	 1.6175 	 0.4437
+[2025/01/20 12:48:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:48:29] - 10 	 23.8 	 	 0.1000 	 0.6496  	 0.7704 	 1.6732 	 1.6260 	 0.5250
+[2025/01/20 12:48:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:48:46] - 1.4313 	 	 0.6627 	 1.5926 	 0.4500
+[2025/01/20 12:49:09] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:49:09] - 11 	 23.2 	 	 0.1000 	 0.9361  	 0.7561 	 1.7829 	 1.7576 	 0.4617
+[2025/01/20 12:49:26] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:49:26] - 1.5044 	 	 0.6541 	 1.6432 	 0.4681
+[2025/01/20 12:49:49] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:49:49] - 12 	 22.4 	 	 0.1000 	 0.6880  	 0.7421 	 1.7623 	 1.6934 	 0.4970
+[2025/01/20 12:50:06] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:50:06] - 1.4491 	 	 0.6681 	 1.6004 	 0.4748
+[2025/01/20 12:50:28] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:50:28] - 13 	 22.5 	 	 0.1000 	 0.7366  	 0.7285 	 1.7864 	 1.7124 	 0.4932
+[2025/01/20 12:50:45] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:50:45] - 1.4159 	 	 0.6815 	 1.5739 	 0.4816
+[2025/01/20 12:51:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:51:08] - 14 	 22.1 	 	 0.1000 	 0.6624  	 0.7151 	 1.7981 	 1.7095 	 0.5039
+[2025/01/20 12:51:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:51:25] - 1.3848 	 	 0.6935 	 1.5502 	 0.4877
+[2025/01/20 12:51:47] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:51:47] - 15 	 22.4 	 	 0.1000 	 0.7187  	 0.7021 	 1.8090 	 1.7121 	 0.5080
+[2025/01/20 12:52:04] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:52:04] - 1.3627 	 	 0.7050 	 1.5341 	 0.4947
+[2025/01/20 12:52:27] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:52:27] - 16 	 22.4 	 	 0.1000 	 0.7263  	 0.6893 	 1.8243 	 1.7184 	 0.5107
+[2025/01/20 12:52:44] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:52:44] - 1.3452 	 	 0.7106 	 1.5206 	 0.4976
+[2025/01/20 12:53:06] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:53:06] - 17 	 22.2 	 	 0.1000 	 0.6803  	 0.6768 	 1.8377 	 1.7223 	 0.5166
+[2025/01/20 12:53:23] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:53:23] - 1.3390 	 	 0.7153 	 1.5169 	 0.5033
+[2025/01/20 12:53:45] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:53:45] - 18 	 22.1 	 	 0.1000 	 0.6650  	 0.6645 	 1.8494 	 1.7251 	 0.5220
+[2025/01/20 12:54:02] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:54:02] - 1.3343 	 	 0.7200 	 1.5140 	 0.5053
+[2025/01/20 12:54:25] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:54:25] - 19 	 22.3 	 	 0.1000 	 0.6726  	 0.6525 	 1.8635 	 1.7302 	 0.5247
+[2025/01/20 12:54:42] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:54:42] - 1.3325 	 	 0.7243 	 1.5130 	 0.5078
+[2025/01/20 12:55:05] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:55:05] - 20 	 23.3 	 	 0.1000 	 0.5294  	 0.6407 	 1.8225 	 1.6646 	 0.5848
+[2025/01/20 12:55:22] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:55:22] - 1.3108 	 	 0.7314 	 1.4980 	 0.5098
+[2025/01/20 12:55:46] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:55:46] - 21 	 23.1 	 	 0.1000 	 0.9054  	 0.6291 	 1.9066 	 1.7824 	 0.5142
+[2025/01/20 12:56:03] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:56:03] - 1.3725 	 	 0.7248 	 1.5450 	 0.5149
+[2025/01/20 12:56:25] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:56:25] - 22 	 22.2 	 	 0.1000 	 0.6547  	 0.6178 	 1.8957 	 1.7337 	 0.5448
+[2025/01/20 12:56:42] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:56:42] - 1.3649 	 	 0.7305 	 1.5403 	 0.5172
+[2025/01/20 12:57:05] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:57:05] - 23 	 22.5 	 	 0.1000 	 0.7519  	 0.6066 	 1.9173 	 1.7552 	 0.5358
+[2025/01/20 12:57:22] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:57:22] - 1.3655 	 	 0.7309 	 1.5406 	 0.5188
+[2025/01/20 12:57:44] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:57:44] - 24 	 22.3 	 	 0.1000 	 0.6624  	 0.5957 	 1.9296 	 1.7565 	 0.5402
+[2025/01/20 12:58:01] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:58:01] - 1.3647 	 	 0.7330 	 1.5407 	 0.5219
+[2025/01/20 12:58:24] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:58:24] - 25 	 22.4 	 	 0.1000 	 0.6982  	 0.5850 	 1.9407 	 1.7605 	 0.5435
+[2025/01/20 12:58:41] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:58:41] - 1.3662 	 	 0.7358 	 1.5425 	 0.5250
+[2025/01/20 12:59:03] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:59:03] - 26 	 22.2 	 	 0.1000 	 0.6829  	 0.5744 	 1.9533 	 1.7651 	 0.5467
+[2025/01/20 12:59:20] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 12:59:20] - 1.3720 	 	 0.7373 	 1.5480 	 0.5270
+[2025/01/20 12:59:43] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 12:59:43] - 27 	 22.2 	 	 0.1000 	 0.6701  	 0.5641 	 1.9669 	 1.7724 	 0.5470
+[2025/01/20 13:00:00] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:00:00] - 1.3788 	 	 0.7397 	 1.5538 	 0.5299
+[2025/01/20 13:00:22] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:00:22] - 28 	 22.0 	 	 0.1000 	 0.5908  	 0.5539 	 1.9770 	 1.7749 	 0.5523
+[2025/01/20 13:00:39] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:00:39] - 1.3869 	 	 0.7391 	 1.5609 	 0.5315
+[2025/01/20 13:01:01] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:01:01] - 29 	 22.1 	 	 0.1000 	 0.6445  	 0.5439 	 1.9895 	 1.7819 	 0.5517
+[2025/01/20 13:01:18] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:01:18] - 1.3950 	 	 0.7402 	 1.5681 	 0.5326
+[2025/01/20 13:01:41] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:01:41] - 30 	 23.2 	 	 0.1000 	 0.4757  	 0.5340 	 1.9642 	 1.7287 	 0.6057
+[2025/01/20 13:01:59] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:01:59] - 1.3886 	 	 0.7449 	 1.5649 	 0.5331
+[2025/01/20 13:02:22] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:02:22] - 31 	 23.2 	 	 0.1000 	 0.9105  	 0.5243 	 2.0239 	 1.8278 	 0.5329
+[2025/01/20 13:02:39] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:02:39] - 1.4388 	 	 0.7384 	 1.6041 	 0.5365
+[2025/01/20 13:03:01] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:03:01] - 32 	 21.7 	 	 0.1000 	 0.5652  	 0.5148 	 2.0166 	 1.7857 	 0.5677
+[2025/01/20 13:03:18] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:03:18] - 1.4429 	 	 0.7410 	 1.6081 	 0.5379
+[2025/01/20 13:03:40] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:03:40] - 33 	 22.4 	 	 0.1000 	 0.6880  	 0.5054 	 2.0342 	 1.8066 	 0.5544
+[2025/01/20 13:03:57] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:03:57] - 1.4537 	 	 0.7411 	 1.6173 	 0.5386
+[2025/01/20 13:04:20] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:04:20] - 34 	 22.1 	 	 0.1000 	 0.6240  	 0.4961 	 2.0419 	 1.8058 	 0.5591
+[2025/01/20 13:04:37] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:04:37] - 1.4606 	 	 0.7414 	 1.6235 	 0.5402
+[2025/01/20 13:04:59] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:04:59] - 35 	 21.9 	 	 0.1000 	 0.6113  	 0.4870 	 2.0530 	 1.8120 	 0.5601
+[2025/01/20 13:05:16] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:05:16] - 1.4687 	 	 0.7425 	 1.6303 	 0.5418
+[2025/01/20 13:05:38] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:05:38] - 36 	 21.9 	 	 0.1000 	 0.6087  	 0.4780 	 2.0629 	 1.8175 	 0.5601
+[2025/01/20 13:05:55] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:05:55] - 1.4765 	 	 0.7440 	 1.6374 	 0.5433
+[2025/01/20 13:06:17] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:06:17] - 37 	 22.1 	 	 0.1000 	 0.6317  	 0.4692 	 2.0723 	 1.8219 	 0.5608
+[2025/01/20 13:06:34] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:06:34] - 1.4859 	 	 0.7438 	 1.6453 	 0.5434
+[2025/01/20 13:06:56] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:06:56] - 38 	 22.0 	 	 0.1000 	 0.6368  	 0.4604 	 2.0809 	 1.8251 	 0.5642
+[2025/01/20 13:07:13] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:07:13] - 1.4958 	 	 0.7449 	 1.6535 	 0.5431
+[2025/01/20 13:07:35] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:07:35] - 39 	 21.9 	 	 0.1000 	 0.6010  	 0.4518 	 2.0898 	 1.8300 	 0.5638
+[2025/01/20 13:07:52] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:07:52] - 1.5040 	 	 0.7449 	 1.6605 	 0.5437
+[2025/01/20 13:08:15] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:08:15] - 40 	 22.9 	 	 0.1000 	 0.4220  	 0.4433 	 2.0738 	 1.7814 	 0.6203
+[2025/01/20 13:08:32] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:08:32] - 1.5011 	 	 0.7478 	 1.6596 	 0.5443
+[2025/01/20 13:08:55] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:08:55] - 41 	 22.9 	 	 0.1000 	 0.8568  	 0.4350 	 2.1152 	 1.8677 	 0.5453
+[2025/01/20 13:09:12] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:09:12] - 1.5429 	 	 0.7433 	 1.6919 	 0.5465
+[2025/01/20 13:09:35] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:09:35] - 42 	 22.1 	 	 0.1000 	 0.6138  	 0.4267 	 2.1105 	 1.8311 	 0.5796
+[2025/01/20 13:09:52] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:09:52] - 1.5499 	 	 0.7444 	 1.6984 	 0.5473
+[2025/01/20 13:10:14] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:10:14] - 43 	 22.1 	 	 0.1000 	 0.6598  	 0.4185 	 2.1226 	 1.8478 	 0.5673
+[2025/01/20 13:10:31] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:10:31] - 1.5599 	 	 0.7439 	 1.7068 	 0.5471
+[2025/01/20 13:10:53] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:10:53] - 44 	 21.9 	 	 0.1000 	 0.5908  	 0.4105 	 2.1305 	 1.8495 	 0.5701
+[2025/01/20 13:11:10] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:11:10] - 1.5670 	 	 0.7450 	 1.7127 	 0.5467
+[2025/01/20 13:11:32] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:11:32] - 45 	 22.1 	 	 0.1000 	 0.6598  	 0.4025 	 2.1381 	 1.8539 	 0.5701
+[2025/01/20 13:11:49] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:11:49] - 1.5764 	 	 0.7444 	 1.7208 	 0.5473
+[2025/01/20 13:12:11] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:12:11] - 46 	 22.0 	 	 0.1000 	 0.6189  	 0.3947 	 2.1456 	 1.8586 	 0.5688
+[2025/01/20 13:12:28] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:12:28] - 1.5841 	 	 0.7449 	 1.7273 	 0.5488
+[2025/01/20 13:12:50] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:12:50] - 47 	 22.0 	 	 0.1000 	 0.6113  	 0.3869 	 2.1526 	 1.8623 	 0.5698
+[2025/01/20 13:13:07] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:13:07] - 1.5913 	 	 0.7452 	 1.7335 	 0.5513
+[2025/01/20 13:13:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:13:29] - 48 	 21.8 	 	 0.1000 	 0.6010  	 0.3792 	 2.1592 	 1.8647 	 0.5720
+[2025/01/20 13:13:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:13:46] - 1.6001 	 	 0.7466 	 1.7413 	 0.5524
+[2025/01/20 13:14:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:14:08] - 49 	 21.8 	 	 0.1000 	 0.5678  	 0.3716 	 2.1658 	 1.8677 	 0.5729
+[2025/01/20 13:14:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:14:25] - 1.6099 	 	 0.7467 	 1.7497 	 0.5523
+[2025/01/20 13:14:48] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:14:48] - 50 	 23.0 	 	 0.1000 	 0.4246  	 0.3641 	 2.1572 	 1.8262 	 0.6272
+[2025/01/20 13:15:05] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:15:05] - 1.6072 	 	 0.7494 	 1.7486 	 0.5531
+[2025/01/20 13:15:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:15:29] - 51 	 23.1 	 	 0.1000 	 0.8900  	 0.3567 	 2.1832 	 1.8990 	 0.5523
+[2025/01/20 13:15:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:15:46] - 1.6468 	 	 0.7451 	 1.7790 	 0.5568
+[2025/01/20 13:16:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:16:08] - 52 	 21.8 	 	 0.1000 	 0.5575  	 0.3494 	 2.1826 	 1.8703 	 0.5838
+[2025/01/20 13:16:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:16:25] - 1.6525 	 	 0.7455 	 1.7842 	 0.5567
+[2025/01/20 13:16:47] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:16:47] - 53 	 22.0 	 	 0.1000 	 0.6189  	 0.3421 	 2.1910 	 1.8827 	 0.5743
+[2025/01/20 13:17:04] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:17:04] - 1.6633 	 	 0.7457 	 1.7933 	 0.5565
+[2025/01/20 13:17:26] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:17:26] - 54 	 22.0 	 	 0.1000 	 0.6240  	 0.3349 	 2.1959 	 1.8828 	 0.5773
+[2025/01/20 13:17:43] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:17:43] - 1.6694 	 	 0.7470 	 1.7986 	 0.5560
+[2025/01/20 13:18:05] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:18:05] - 55 	 21.9 	 	 0.1000 	 0.5959  	 0.3278 	 2.2021 	 1.8877 	 0.5754
+[2025/01/20 13:18:22] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:18:22] - 1.6782 	 	 0.7466 	 1.8061 	 0.5547
+[2025/01/20 13:18:43] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:18:43] - 56 	 21.9 	 	 0.1000 	 0.5959  	 0.3207 	 2.2076 	 1.8918 	 0.5739
+[2025/01/20 13:19:00] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:19:00] - 1.6868 	 	 0.7476 	 1.8133 	 0.5542
+[2025/01/20 13:19:22] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:19:22] - 57 	 21.8 	 	 0.1000 	 0.5575  	 0.3138 	 2.2127 	 1.8931 	 0.5768
+[2025/01/20 13:19:39] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:19:39] - 1.6951 	 	 0.7481 	 1.8203 	 0.5548
+[2025/01/20 13:20:01] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:20:01] - 58 	 21.9 	 	 0.1000 	 0.5857  	 0.3068 	 2.2180 	 1.8966 	 0.5764
+[2025/01/20 13:20:18] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:20:18] - 1.7052 	 	 0.7475 	 1.8287 	 0.5546
+[2025/01/20 13:20:40] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:20:40] - 59 	 21.9 	 	 0.1000 	 0.6164  	 0.3000 	 2.2228 	 1.8987 	 0.5778
+[2025/01/20 13:20:57] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:20:57] - 1.7145 	 	 0.7476 	 1.8364 	 0.5563
+[2025/01/20 13:21:20] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:21:20] - 60 	 22.8 	 	 0.1000 	 0.4169  	 0.2932 	 2.2187 	 1.8598 	 0.6326
+[2025/01/20 13:21:37] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:21:37] - 1.7136 	 	 0.7511 	 1.8370 	 0.5564
+[2025/01/20 13:22:00] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:22:00] - 61 	 23.0 	 	 0.1000 	 0.8849  	 0.2865 	 2.2344 	 1.9235 	 0.5583
+[2025/01/20 13:22:17] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:22:17] - 1.7499 	 	 0.7456 	 1.8651 	 0.5583
+[2025/01/20 13:22:39] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:22:39] - 62 	 21.7 	 	 0.1000 	 0.5678  	 0.2798 	 2.2350 	 1.8969 	 0.5923
+[2025/01/20 13:22:56] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:22:56] - 1.7562 	 	 0.7459 	 1.8706 	 0.5582
+[2025/01/20 13:23:18] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:23:18] - 63 	 22.2 	 	 0.1000 	 0.6829  	 0.2732 	 2.2408 	 1.9099 	 0.5782
+[2025/01/20 13:23:35] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:23:35] - 1.7653 	 	 0.7460 	 1.8782 	 0.5587
+[2025/01/20 13:23:57] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:23:57] - 64 	 22.0 	 	 0.1000 	 0.6010  	 0.2666 	 2.2448 	 1.9110 	 0.5798
+[2025/01/20 13:24:14] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:24:14] - 1.7726 	 	 0.7458 	 1.8844 	 0.5590
+[2025/01/20 13:24:37] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:24:37] - 65 	 22.0 	 	 0.1000 	 0.6010  	 0.2601 	 2.2490 	 1.9120 	 0.5826
+[2025/01/20 13:24:54] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:24:54] - 1.7803 	 	 0.7460 	 1.8909 	 0.5587
+[2025/01/20 13:25:15] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:25:15] - 66 	 21.9 	 	 0.1000 	 0.5882  	 0.2537 	 2.2528 	 1.9145 	 0.5820
+[2025/01/20 13:25:32] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:25:32] - 1.7891 	 	 0.7465 	 1.8981 	 0.5587
+[2025/01/20 13:25:54] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:25:54] - 67 	 21.7 	 	 0.1000 	 0.5754  	 0.2473 	 2.2567 	 1.9176 	 0.5810
+[2025/01/20 13:26:11] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:26:11] - 1.7992 	 	 0.7461 	 1.9063 	 0.5590
+[2025/01/20 13:26:33] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:26:33] - 68 	 21.8 	 	 0.1000 	 0.6010  	 0.2409 	 2.2603 	 1.9203 	 0.5802
+[2025/01/20 13:26:50] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:26:50] - 1.8097 	 	 0.7462 	 1.9150 	 0.5592
+[2025/01/20 13:27:12] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:27:12] - 69 	 22.0 	 	 0.1000 	 0.5985  	 0.2346 	 2.2637 	 1.9207 	 0.5833
+[2025/01/20 13:27:29] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:27:29] - 1.8196 	 	 0.7466 	 1.9230 	 0.5592
+[2025/01/20 13:27:52] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:27:52] - 70 	 22.8 	 	 0.1000 	 0.3785  	 0.2283 	 2.2631 	 1.8838 	 0.6401
+[2025/01/20 13:28:09] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:28:09] - 1.8196 	 	 0.7493 	 1.9239 	 0.5586
+[2025/01/20 13:28:32] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:28:32] - 71 	 23.0 	 	 0.1000 	 0.8772  	 0.2221 	 2.2707 	 1.9415 	 0.5641
+[2025/01/20 13:28:49] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:28:49] - 1.8544 	 	 0.7416 	 1.9508 	 0.5588
+[2025/01/20 13:29:11] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:29:11] - 72 	 21.6 	 	 0.1000 	 0.5243  	 0.2159 	 2.2727 	 1.9176 	 0.5977
+[2025/01/20 13:29:28] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:29:28] - 1.8614 	 	 0.7426 	 1.9568 	 0.5589
+[2025/01/20 13:29:50] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:29:50] - 73 	 21.9 	 	 0.1000 	 0.6113  	 0.2098 	 2.2764 	 1.9292 	 0.5843
+[2025/01/20 13:30:07] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:30:07] - 1.8725 	 	 0.7413 	 1.9655 	 0.5603
+[2025/01/20 13:30:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:30:29] - 74 	 21.8 	 	 0.1000 	 0.5703  	 0.2037 	 2.2792 	 1.9278 	 0.5888
+[2025/01/20 13:30:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:30:46] - 1.8823 	 	 0.7397 	 1.9736 	 0.5608
+[2025/01/20 13:31:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:31:08] - 75 	 21.8 	 	 0.1000 	 0.5703  	 0.1976 	 2.2820 	 1.9326 	 0.5840
+[2025/01/20 13:31:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:31:25] - 1.8926 	 	 0.7399 	 1.9821 	 0.5605
+[2025/01/20 13:31:47] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:31:47] - 76 	 21.7 	 	 0.1000 	 0.5703  	 0.1916 	 2.2847 	 1.9335 	 0.5856
+[2025/01/20 13:32:04] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:32:04] - 1.9015 	 	 0.7403 	 1.9893 	 0.5607
+[2025/01/20 13:32:25] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:32:25] - 77 	 21.8 	 	 0.1000 	 0.5550  	 0.1856 	 2.2872 	 1.9330 	 0.5889
+[2025/01/20 13:32:42] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:32:42] - 1.9103 	 	 0.7404 	 1.9965 	 0.5608
+[2025/01/20 13:33:04] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:33:04] - 78 	 21.7 	 	 0.1000 	 0.5601  	 0.1796 	 2.2896 	 1.9353 	 0.5881
+[2025/01/20 13:33:21] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:33:21] - 1.9199 	 	 0.7402 	 2.0042 	 0.5608
+[2025/01/20 13:33:43] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:33:43] - 79 	 22.0 	 	 0.1000 	 0.6087  	 0.1737 	 2.2919 	 1.9372 	 0.5875
+[2025/01/20 13:34:01] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:34:01] - 1.9305 	 	 0.7410 	 2.0128 	 0.5600
+[2025/01/20 13:34:23] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:34:23] - 80 	 22.7 	 	 0.1000 	 0.3683  	 0.1678 	 2.2934 	 1.9004 	 0.6474
+[2025/01/20 13:34:40] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:34:40] - 1.9321 	 	 0.7418 	 2.0148 	 0.5600
+[2025/01/20 13:35:03] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:35:03] - 81 	 22.8 	 	 0.1000 	 0.8286  	 0.1620 	 2.2953 	 1.9541 	 0.5693
+[2025/01/20 13:35:20] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:35:20] - 1.9621 	 	 0.7370 	 2.0378 	 0.5581
+[2025/01/20 13:35:42] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:35:42] - 82 	 21.4 	 	 0.1000 	 0.5013  	 0.1561 	 2.2980 	 1.9301 	 0.6064
+[2025/01/20 13:35:59] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:35:59] - 1.9679 	 	 0.7372 	 2.0430 	 0.5581
+[2025/01/20 13:36:21] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:36:21] - 83 	 22.0 	 	 0.1000 	 0.6266  	 0.1503 	 2.2998 	 1.9421 	 0.5896
+[2025/01/20 13:36:38] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:36:38] - 1.9768 	 	 0.7374 	 2.0504 	 0.5580
+[2025/01/20 13:36:59] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:36:59] - 84 	 21.7 	 	 0.1000 	 0.5524  	 0.1500 	 2.3000 	 1.9406 	 0.5920
+[2025/01/20 13:37:16] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:37:16] - 1.9805 	 	 0.7395 	 2.0539 	 0.5583
+[2025/01/20 13:37:38] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:37:38] - 85 	 21.8 	 	 0.1000 	 0.5934  	 0.1500 	 2.3000 	 1.9449 	 0.5849
+[2025/01/20 13:37:55] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:37:55] - 1.9807 	 	 0.7446 	 2.0547 	 0.5599
+[2025/01/20 13:38:17] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:38:17] - 86 	 22.1 	 	 0.1000 	 0.6368  	 0.1500 	 2.3000 	 1.9457 	 0.5838
+[2025/01/20 13:38:34] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:38:34] - 1.9778 	 	 0.7503 	 2.0531 	 0.5639
+[2025/01/20 13:38:56] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:38:56] - 87 	 22.0 	 	 0.1000 	 0.6215  	 0.1500 	 2.3000 	 1.9466 	 0.5823
+[2025/01/20 13:39:14] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:39:14] - 1.9731 	 	 0.7534 	 2.0500 	 0.5665
+[2025/01/20 13:39:36] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:39:36] - 88 	 22.0 	 	 0.1000 	 0.6036  	 0.1500 	 2.3001 	 1.9479 	 0.5802
+[2025/01/20 13:39:53] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:39:53] - 1.9680 	 	 0.7573 	 2.0466 	 0.5705
+[2025/01/20 13:40:15] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:40:15] - 89 	 21.8 	 	 0.1000 	 0.5754  	 0.1500 	 2.3001 	 1.9482 	 0.5797
+[2025/01/20 13:40:32] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:40:32] - 1.9622 	 	 0.7612 	 2.0424 	 0.5744
+[2025/01/20 13:40:55] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:40:55] - 90 	 22.8 	 	 0.1000 	 0.3862  	 0.1500 	 2.3000 	 1.9128 	 0.6362
+[2025/01/20 13:41:12] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:41:12] - 1.9531 	 	 0.7656 	 2.0360 	 0.5765
+[2025/01/20 13:41:35] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:41:35] - 91 	 23.1 	 	 0.1000 	 0.8798  	 0.1500 	 2.2990 	 1.9649 	 0.5559
+[2025/01/20 13:41:52] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:41:52] - 1.9628 	 	 0.7631 	 2.0423 	 0.5770
+[2025/01/20 13:42:14] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:42:14] - 92 	 21.9 	 	 0.1000 	 0.5601  	 0.1500 	 2.2999 	 1.9403 	 0.5929
+[2025/01/20 13:42:31] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:42:31] - 1.9554 	 	 0.7670 	 2.0368 	 0.5775
+[2025/01/20 13:42:53] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:42:53] - 93 	 22.1 	 	 0.1000 	 0.6394  	 0.1500 	 2.2999 	 1.9513 	 0.5752
+[2025/01/20 13:43:10] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:43:10] - 1.9511 	 	 0.7709 	 2.0335 	 0.5796
+[2025/01/20 13:43:32] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:43:32] - 94 	 21.9 	 	 0.1000 	 0.5908  	 0.1500 	 2.3000 	 1.9484 	 0.5795
+[2025/01/20 13:43:49] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:43:49] - 1.9469 	 	 0.7717 	 2.0307 	 0.5793
+[2025/01/20 13:44:11] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:44:11] - 95 	 21.8 	 	 0.1000 	 0.5882  	 0.1500 	 2.3000 	 1.9499 	 0.5773
+[2025/01/20 13:44:28] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:44:28] - 1.9434 	 	 0.7724 	 2.0280 	 0.5800
+[2025/01/20 13:44:50] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:44:50] - 96 	 22.1 	 	 0.1000 	 0.6598  	 0.1500 	 2.3000 	 1.9501 	 0.5768
+[2025/01/20 13:45:07] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:45:07] - 1.9398 	 	 0.7728 	 2.0254 	 0.5793
+[2025/01/20 13:45:29] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:45:29] - 97 	 21.7 	 	 0.1000 	 0.5524  	 0.1500 	 2.3001 	 1.9503 	 0.5764
+[2025/01/20 13:45:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:45:46] - 1.9374 	 	 0.7749 	 2.0238 	 0.5790
+[2025/01/20 13:46:08] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:46:08] - 98 	 22.1 	 	 0.1000 	 0.6496  	 0.1500 	 2.3000 	 1.9513 	 0.5747
+[2025/01/20 13:46:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:46:25] - 1.9350 	 	 0.7763 	 2.0220 	 0.5792
+[2025/01/20 13:46:47] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:46:47] - 99 	 22.0 	 	 0.0100 	 0.6266  	 0.1500 	 2.3001 	 1.9506 	 0.5759
+[2025/01/20 13:47:04] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:47:04] - 1.9330 	 	 0.7766 	 2.0205 	 0.5786
+[2025/01/20 13:47:26] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:47:26] - 100 	 21.9 	 	 0.0100 	 0.1688  	 0.1500 	 2.2995 	 1.8745 	 0.6965
+[2025/01/20 13:47:43] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:47:43] - 1.9293 	 	 0.7789 	 2.0179 	 0.5778
+[2025/01/20 13:48:06] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:48:06] - 101 	 22.3 	 	 0.0100 	 0.6905  	 0.1500 	 2.2994 	 1.9136 	 0.6363
+[2025/01/20 13:48:23] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:48:23] - 1.9253 	 	 0.7816 	 2.0151 	 0.5809
+[2025/01/20 13:48:43] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:48:43] - 102 	 20.3 	 	 0.0100 	 0.1893  	 0.1500 	 2.3001 	 1.8836 	 0.6810
+[2025/01/20 13:49:00] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:49:00] - 1.9216 	 	 0.7837 	 2.0125 	 0.5821
+[2025/01/20 13:49:21] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:49:21] - 103 	 20.8 	 	 0.0100 	 0.3018  	 0.1500 	 2.3004 	 1.8881 	 0.6735
+[2025/01/20 13:49:38] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:49:38] - 1.9159 	 	 0.7879 	 2.0088 	 0.5836
+[2025/01/20 13:49:59] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:49:59] - 104 	 20.5 	 	 0.0010 	 0.2148  	 0.1500 	 2.3006 	 1.8813 	 0.6838
+[2025/01/20 13:50:16] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:50:16] - 1.9117 	 	 0.7899 	 2.0058 	 0.5846
+[2025/01/20 13:50:36] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:50:36] - 105 	 20.3 	 	 0.0010 	 0.1765  	 0.1500 	 2.3005 	 1.8743 	 0.6948
+[2025/01/20 13:50:53] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:50:53] - 1.9083 	 	 0.7911 	 2.0035 	 0.5854
+[2025/01/20 13:51:14] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:51:14] - 106 	 20.3 	 	 0.0010 	 0.1816  	 0.1500 	 2.3007 	 1.8720 	 0.6981
+[2025/01/20 13:51:31] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:51:31] - 1.9048 	 	 0.7943 	 2.0012 	 0.5866
+[2025/01/20 13:51:51] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:51:51] - 107 	 20.2 	 	 0.0010 	 0.1432  	 0.1500 	 2.3008 	 1.8720 	 0.6978
+[2025/01/20 13:52:08] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:52:08] - 1.9021 	 	 0.7965 	 1.9994 	 0.5865
+[2025/01/20 13:52:28] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:52:28] - 108 	 20.3 	 	 0.0010 	 0.1893  	 0.1500 	 2.3008 	 1.8703 	 0.7004
+[2025/01/20 13:52:46] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:52:46] - 1.8986 	 	 0.7974 	 1.9970 	 0.5865
+[2025/01/20 13:53:06] - Epoch 	 Seconds 	 LR 	 	 Update 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/20 13:53:06] - 109 	 20.1 	 	 0.0010 	 0.1483  	 0.1500 	 2.3008 	 1.8679 	 0.7045
+[2025/01/20 13:53:23] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/20 13:53:23] - 1.8959 	 	 0.7994 	 1.9953 	 0.5869
+[2025/01/20 13:53:23] - [0.3361, 0.3908, 0.4305, 0.4728, 0.5113, 0.5525, 0.5808, 0.6071, 0.6285, 0.6425, 0.6627, 0.6541, 0.6681, 0.6815, 0.6935, 0.705, 0.7106, 0.7153, 0.72, 0.7243, 0.7314, 0.7248, 0.7305, 0.7309, 0.733, 0.7358, 0.7373, 0.7397, 0.7391, 0.7402, 0.7449, 0.7384, 0.741, 0.7411, 0.7414, 0.7425, 0.744, 0.7438, 0.7449, 0.7449, 0.7478, 0.7433, 0.7444, 0.7439, 0.745, 0.7444, 0.7449, 0.7452, 0.7466, 0.7467, 0.7494, 0.7451, 0.7455, 0.7457, 0.747, 0.7466, 0.7476, 0.7481, 0.7475, 0.7476, 0.7511, 0.7456, 0.7459, 0.746, 0.7458, 0.746, 0.7465, 0.7461, 0.7462, 0.7466, 0.7493, 0.7416, 0.7426, 0.7413, 0.7397, 0.7399, 0.7403, 0.7404, 0.7402, 0.741, 0.7418, 0.737, 0.7372, 0.7374, 0.7395, 0.7446, 0.7503, 0.7534, 0.7573, 0.7612, 0.7656, 0.7631, 0.767, 0.7709, 0.7717, 0.7724, 0.7728, 0.7749, 0.7763, 0.7766, 0.7789, 0.7816, 0.7837, 0.7879, 0.7899, 0.7911, 0.7943, 0.7965, 0.7974, 0.7994]
+[2025/01/20 13:53:23] - [0.2429, 0.293, 0.3067, 0.3337, 0.3561, 0.3771, 0.3946, 0.4164, 0.4297, 0.4437, 0.45, 0.4681, 0.4748, 0.4816, 0.4877, 0.4947, 0.4976, 0.5033, 0.5053, 0.5078, 0.5098, 0.5149, 0.5172, 0.5188, 0.5219, 0.525, 0.527, 0.5299, 0.5315, 0.5326, 0.5331, 0.5365, 0.5379, 0.5386, 0.5402, 0.5418, 0.5433, 0.5434, 0.5431, 0.5437, 0.5443, 0.5465, 0.5473, 0.5471, 0.5467, 0.5473, 0.5488, 0.5513, 0.5524, 0.5523, 0.5531, 0.5568, 0.5567, 0.5565, 0.556, 0.5547, 0.5542, 0.5548, 0.5546, 0.5563, 0.5564, 0.5583, 0.5582, 0.5587, 0.559, 0.5587, 0.5587, 0.559, 0.5592, 0.5592, 0.5586, 0.5588, 0.5589, 0.5603, 0.5608, 0.5605, 0.5607, 0.5608, 0.5608, 0.56, 0.56, 0.5581, 0.5581, 0.558, 0.5583, 0.5599, 0.5639, 0.5665, 0.5705, 0.5744, 0.5765, 0.577, 0.5775, 0.5796, 0.5793, 0.58, 0.5793, 0.579, 0.5792, 0.5786, 0.5778, 0.5809, 0.5821, 0.5836, 0.5846, 0.5854, 0.5866, 0.5865, 0.5865, 0.5869]
+[2025/01/20 13:53:23] - 2424.8239047527313

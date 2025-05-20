@@ -1,0 +1,321 @@
+[2025/01/16 00:57:02] - Namespace(model='ResNet18', batch_size=128, data_dir='CIFAR10', epochs=110, lr_schedule='multistep', milestone1=100, milestone2=105, lr_min=0.0, lr_max=0.1, weight_decay=0.0005, momentum=0.9, seed=0, save_epoch=60, inner_gamma=0.15, outer_gamma=0.15, beta=0.6, lamda=0.65, batch_m=0.75, epochs_reset=10, momentum_decay=0.3, EMA_value=0.82, epsilon=8, alpha=8, delta_init='random', out_dir='TDAT_CIFAR10', out_path='TD_WMEP', log='output.log')
+[2025/01/16 00:58:17] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 00:58:17] - 0 	 28.2 	 	 0.1000 	 0.8947 	 0.4570 	 2.2886 	 2.3069 	 0.1983
+[2025/01/16 00:58:42] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 00:58:42] - 1 	 24.3 	 	 0.1000 	 0.8077 	 0.4546 	 2.2367 	 2.2536 	 0.2537
+[2025/01/16 00:59:06] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 00:59:06] - 2 	 24.3 	 	 0.1000 	 0.8571 	 0.4523 	 2.2247 	 2.2317 	 0.2880
+[2025/01/16 00:59:30] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 00:59:30] - 3 	 24.3 	 	 0.1000 	 0.6667 	 0.4499 	 2.2107 	 2.2207 	 0.3126
+[2025/01/16 00:59:54] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 00:59:54] - 4 	 24.3 	 	 0.1000 	 0.8684 	 0.4475 	 2.1964 	 2.2076 	 0.3416
+[2025/01/16 01:00:19] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:00:19] - 5 	 24.3 	 	 0.1000 	 0.6585 	 0.4451 	 2.1830 	 2.1967 	 0.3684
+[2025/01/16 01:00:43] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:00:43] - 6 	 24.3 	 	 0.1000 	 0.8696 	 0.4426 	 2.1697 	 2.1847 	 0.3947
+[2025/01/16 01:01:07] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:01:07] - 7 	 24.3 	 	 0.1000 	 0.7959 	 0.4401 	 2.1585 	 2.1751 	 0.4189
+[2025/01/16 01:01:32] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:01:32] - 8 	 24.5 	 	 0.1000 	 0.8333 	 0.4376 	 2.1511 	 2.1682 	 0.4344
+[2025/01/16 01:01:56] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:01:56] - 9 	 24.3 	 	 0.1000 	 0.7292 	 0.4350 	 2.1439 	 2.1614 	 0.4555
+[2025/01/16 01:02:22] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:02:22] - 10 	 26.1 	 	 0.1000 	 0.7679 	 0.4324 	 2.1137 	 2.1302 	 0.5261
+[2025/01/16 01:02:47] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:02:47] - 11 	 24.3 	 	 0.1000 	 0.6226 	 0.4298 	 2.1374 	 2.1698 	 0.4642
+[2025/01/16 01:03:11] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:03:11] - 12 	 24.3 	 	 0.1000 	 0.8824 	 0.4271 	 2.1298 	 2.1458 	 0.5018
+[2025/01/16 01:03:35] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:03:35] - 13 	 24.2 	 	 0.1000 	 0.7308 	 0.4244 	 2.1324 	 2.1502 	 0.5003
+[2025/01/16 01:03:59] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:03:59] - 14 	 24.3 	 	 0.1000 	 0.7925 	 0.4217 	 2.1324 	 2.1477 	 0.5053
+[2025/01/16 01:04:24] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:04:24] - 15 	 24.3 	 	 0.1000 	 0.6346 	 0.4189 	 2.1329 	 2.1476 	 0.5111
+[2025/01/16 01:04:48] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:04:48] - 16 	 24.3 	 	 0.1000 	 0.7544 	 0.4161 	 2.1338 	 2.1478 	 0.5159
+[2025/01/16 01:05:12] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:05:12] - 17 	 24.2 	 	 0.1000 	 0.8400 	 0.4132 	 2.1344 	 2.1471 	 0.5194
+[2025/01/16 01:05:37] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:05:37] - 18 	 24.3 	 	 0.1000 	 0.8462 	 0.4103 	 2.1349 	 2.1470 	 0.5268
+[2025/01/16 01:06:01] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:06:01] - 19 	 24.3 	 	 0.1000 	 0.9412 	 0.4074 	 2.1365 	 2.1479 	 0.5277
+[2025/01/16 01:06:27] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:06:27] - 20 	 26.0 	 	 0.1000 	 0.8413 	 0.4044 	 2.1186 	 2.1251 	 0.5873
+[2025/01/16 01:06:51] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:06:51] - 21 	 24.3 	 	 0.1000 	 0.6923 	 0.4015 	 2.1426 	 2.1664 	 0.5137
+[2025/01/16 01:07:15] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:07:15] - 22 	 24.3 	 	 0.1000 	 0.8947 	 0.3984 	 2.1378 	 2.1455 	 0.5470
+[2025/01/16 01:07:40] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:07:40] - 23 	 24.4 	 	 0.1000 	 0.8136 	 0.3954 	 2.1435 	 2.1528 	 0.5393
+[2025/01/16 01:08:04] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:08:04] - 24 	 24.3 	 	 0.1000 	 0.8627 	 0.3922 	 2.1453 	 2.1520 	 0.5445
+[2025/01/16 01:08:28] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:08:28] - 25 	 24.4 	 	 0.1000 	 0.8393 	 0.3891 	 2.1483 	 2.1547 	 0.5442
+[2025/01/16 01:08:53] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:08:53] - 26 	 24.2 	 	 0.1000 	 0.7857 	 0.3859 	 2.1500 	 2.1547 	 0.5497
+[2025/01/16 01:09:17] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:09:17] - 27 	 24.3 	 	 0.1000 	 0.7679 	 0.3827 	 2.1528 	 2.1572 	 0.5473
+[2025/01/16 01:09:41] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:09:41] - 28 	 24.4 	 	 0.1000 	 0.7037 	 0.3795 	 2.1549 	 2.1583 	 0.5520
+[2025/01/16 01:10:06] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:10:06] - 29 	 24.3 	 	 0.1000 	 0.7547 	 0.3762 	 2.1580 	 2.1607 	 0.5523
+[2025/01/16 01:10:32] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:10:32] - 30 	 26.0 	 	 0.1000 	 0.7636 	 0.3728 	 2.1442 	 2.1406 	 0.6095
+[2025/01/16 01:10:56] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:10:56] - 31 	 24.3 	 	 0.1000 	 0.7400 	 0.3695 	 2.1655 	 2.1787 	 0.5346
+[2025/01/16 01:11:20] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:11:20] - 32 	 24.3 	 	 0.1000 	 0.7742 	 0.3661 	 2.1629 	 2.1616 	 0.5666
+[2025/01/16 01:11:45] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:11:45] - 33 	 24.2 	 	 0.1000 	 0.8679 	 0.3626 	 2.1684 	 2.1686 	 0.5576
+[2025/01/16 01:12:09] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:12:09] - 34 	 24.3 	 	 0.1000 	 0.6909 	 0.3591 	 2.1709 	 2.1691 	 0.5600
+[2025/01/16 01:12:33] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:12:33] - 35 	 24.2 	 	 0.1000 	 0.9020 	 0.3556 	 2.1745 	 2.1715 	 0.5584
+[2025/01/16 01:12:57] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:12:57] - 36 	 24.3 	 	 0.1000 	 0.7544 	 0.3521 	 2.1768 	 2.1733 	 0.5619
+[2025/01/16 01:13:22] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:13:22] - 37 	 24.3 	 	 0.1000 	 0.6182 	 0.3485 	 2.1803 	 2.1758 	 0.5633
+[2025/01/16 01:13:46] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:13:46] - 38 	 24.3 	 	 0.1000 	 0.7358 	 0.3448 	 2.1828 	 2.1775 	 0.5652
+[2025/01/16 01:14:10] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:14:10] - 39 	 24.3 	 	 0.1000 	 0.7857 	 0.3412 	 2.1861 	 2.1799 	 0.5662
+[2025/01/16 01:14:36] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:14:36] - 40 	 26.1 	 	 0.1000 	 0.8333 	 0.3375 	 2.1769 	 2.1643 	 0.6198
+[2025/01/16 01:15:01] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:15:01] - 41 	 24.2 	 	 0.1000 	 0.7222 	 0.3337 	 2.1942 	 2.1974 	 0.5422
+[2025/01/16 01:15:25] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:15:25] - 42 	 24.3 	 	 0.1000 	 0.8163 	 0.3299 	 2.1927 	 2.1828 	 0.5790
+[2025/01/16 01:15:49] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:15:49] - 43 	 24.3 	 	 0.1000 	 0.7679 	 0.3261 	 2.1978 	 2.1896 	 0.5695
+[2025/01/16 01:16:14] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:16:14] - 44 	 24.4 	 	 0.1000 	 0.7069 	 0.3222 	 2.2010 	 2.1906 	 0.5698
+[2025/01/16 01:16:38] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:16:38] - 45 	 24.3 	 	 0.1000 	 0.7586 	 0.3183 	 2.2041 	 2.1931 	 0.5688
+[2025/01/16 01:17:02] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:17:02] - 46 	 24.3 	 	 0.1000 	 0.8036 	 0.3144 	 2.2070 	 2.1950 	 0.5709
+[2025/01/16 01:17:27] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:17:27] - 47 	 24.3 	 	 0.1000 	 0.7018 	 0.3104 	 2.2100 	 2.1972 	 0.5717
+[2025/01/16 01:17:51] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:17:51] - 48 	 24.2 	 	 0.1000 	 0.7679 	 0.3064 	 2.2132 	 2.1998 	 0.5733
+[2025/01/16 01:18:15] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:18:15] - 49 	 24.4 	 	 0.1000 	 0.7551 	 0.3024 	 2.2164 	 2.2024 	 0.5712
+[2025/01/16 01:18:41] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:18:41] - 50 	 26.0 	 	 0.1000 	 0.7077 	 0.2983 	 2.2102 	 2.1895 	 0.6300
+[2025/01/16 01:19:05] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:19:05] - 51 	 24.3 	 	 0.1000 	 0.8077 	 0.2941 	 2.2239 	 2.2181 	 0.5505
+[2025/01/16 01:19:30] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:19:30] - 52 	 24.4 	 	 0.1000 	 0.9138 	 0.2900 	 2.2239 	 2.2066 	 0.5873
+[2025/01/16 01:19:54] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:19:54] - 53 	 24.3 	 	 0.1000 	 0.7593 	 0.2858 	 2.2284 	 2.2126 	 0.5729
+[2025/01/16 01:20:18] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:20:18] - 54 	 24.3 	 	 0.1000 	 0.7302 	 0.2815 	 2.2311 	 2.2134 	 0.5774
+[2025/01/16 01:20:43] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:20:43] - 55 	 24.2 	 	 0.1000 	 0.8475 	 0.2773 	 2.2346 	 2.2163 	 0.5763
+[2025/01/16 01:21:07] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:21:07] - 56 	 24.4 	 	 0.1000 	 0.8167 	 0.2730 	 2.2373 	 2.2181 	 0.5782
+[2025/01/16 01:21:31] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:21:31] - 57 	 24.2 	 	 0.1000 	 0.8113 	 0.2686 	 2.2405 	 2.2210 	 0.5770
+[2025/01/16 01:21:56] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:21:56] - 58 	 24.3 	 	 0.1000 	 0.7736 	 0.2642 	 2.2432 	 2.2229 	 0.5792
+[2025/01/16 01:22:20] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:22:20] - 59 	 24.2 	 	 0.1000 	 0.8077 	 0.2598 	 2.2461 	 2.2252 	 0.5795
+[2025/01/16 01:22:46] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:22:46] - 60 	 26.0 	 	 0.1000 	 0.8596 	 0.2554 	 2.2436 	 2.2165 	 0.6333
+[2025/01/16 01:23:10] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:23:10] - 61 	 24.3 	 	 0.1000 	 0.6462 	 0.2509 	 2.2523 	 2.2382 	 0.5597
+[2025/01/16 01:23:28] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:23:28] - 1.6886 	 	 0.7707 	 1.8225 	 0.5527
+[2025/01/16 01:23:58] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:23:58] - 62 	 24.3 	 	 0.1000 	 0.7321 	 0.2464 	 2.2538 	 2.2302 	 0.5922
+[2025/01/16 01:24:15] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:24:15] - 1.6926 	 	 0.7720 	 1.8262 	 0.5548
+[2025/01/16 01:24:40] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:24:40] - 63 	 24.5 	 	 0.1000 	 0.8070 	 0.2418 	 2.2574 	 2.2352 	 0.5814
+[2025/01/16 01:24:58] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:24:58] - 1.7029 	 	 0.7705 	 1.8343 	 0.5552
+[2025/01/16 01:25:22] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:25:22] - 64 	 24.5 	 	 0.1000 	 0.7857 	 0.2372 	 2.2601 	 2.2365 	 0.5832
+[2025/01/16 01:25:40] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:25:40] - 1.7099 	 	 0.7708 	 1.8400 	 0.5572
+[2025/01/16 01:26:05] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:26:05] - 65 	 24.3 	 	 0.1000 	 0.8448 	 0.2326 	 2.2629 	 2.2388 	 0.5842
+[2025/01/16 01:26:22] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:26:22] - 1.7172 	 	 0.7719 	 1.8460 	 0.5568
+[2025/01/16 01:26:47] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:26:47] - 66 	 24.4 	 	 0.1000 	 0.6825 	 0.2280 	 2.2657 	 2.2413 	 0.5842
+[2025/01/16 01:27:04] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:27:04] - 1.7249 	 	 0.7738 	 1.8525 	 0.5575
+[2025/01/16 01:27:29] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:27:29] - 67 	 24.4 	 	 0.1000 	 0.8136 	 0.2233 	 2.2682 	 2.2432 	 0.5837
+[2025/01/16 01:27:47] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:27:47] - 1.7342 	 	 0.7740 	 1.8602 	 0.5590
+[2025/01/16 01:28:11] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:28:11] - 68 	 24.5 	 	 0.1000 	 0.7857 	 0.2186 	 2.2709 	 2.2456 	 0.5842
+[2025/01/16 01:28:29] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:28:29] - 1.7431 	 	 0.7726 	 1.8673 	 0.5607
+[2025/01/16 01:28:54] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:28:54] - 69 	 24.4 	 	 0.1000 	 0.7759 	 0.2138 	 2.2733 	 2.2477 	 0.5857
+[2025/01/16 01:29:11] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:29:11] - 1.7520 	 	 0.7732 	 1.8744 	 0.5592
+[2025/01/16 01:29:37] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:29:37] - 70 	 26.0 	 	 0.1000 	 0.7241 	 0.2090 	 2.2732 	 2.2416 	 0.6420
+[2025/01/16 01:29:55] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:29:55] - 1.7490 	 	 0.7761 	 1.8735 	 0.5582
+[2025/01/16 01:30:19] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:30:19] - 71 	 24.4 	 	 0.1000 	 0.6735 	 0.2042 	 2.2778 	 2.2576 	 0.5660
+[2025/01/16 01:30:37] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:30:37] - 1.7820 	 	 0.7706 	 1.8983 	 0.5605
+[2025/01/16 01:31:02] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:31:02] - 72 	 24.5 	 	 0.1000 	 0.7358 	 0.1994 	 2.2801 	 2.2523 	 0.5985
+[2025/01/16 01:31:19] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:31:19] - 1.7885 	 	 0.7713 	 1.9042 	 0.5581
+[2025/01/16 01:31:44] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:31:44] - 73 	 24.3 	 	 0.1000 	 0.8065 	 0.1945 	 2.2828 	 2.2564 	 0.5846
+[2025/01/16 01:32:01] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:32:01] - 1.7988 	 	 0.7705 	 1.9126 	 0.5581
+[2025/01/16 01:32:26] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:32:26] - 74 	 24.4 	 	 0.1000 	 0.7627 	 0.1896 	 2.2852 	 2.2577 	 0.5891
+[2025/01/16 01:32:43] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:32:43] - 1.8068 	 	 0.7704 	 1.9192 	 0.5599
+[2025/01/16 01:33:08] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:33:08] - 75 	 24.4 	 	 0.1000 	 0.7544 	 0.1847 	 2.2874 	 2.2597 	 0.5882
+[2025/01/16 01:33:26] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:33:26] - 1.8168 	 	 0.7694 	 1.9273 	 0.5616
+[2025/01/16 01:33:50] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:33:50] - 76 	 24.6 	 	 0.1000 	 0.7385 	 0.1798 	 2.2896 	 2.2616 	 0.5895
+[2025/01/16 01:34:08] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:34:08] - 1.8259 	 	 0.7705 	 1.9347 	 0.5628
+[2025/01/16 01:34:33] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:34:33] - 77 	 24.4 	 	 0.1000 	 0.7460 	 0.1748 	 2.2917 	 2.2635 	 0.5920
+[2025/01/16 01:34:50] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:34:50] - 1.8359 	 	 0.7703 	 1.9427 	 0.5632
+[2025/01/16 01:35:15] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:35:15] - 78 	 24.5 	 	 0.1000 	 0.8364 	 0.1698 	 2.2937 	 2.2652 	 0.5929
+[2025/01/16 01:35:33] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:35:33] - 1.8457 	 	 0.7700 	 1.9507 	 0.5629
+[2025/01/16 01:35:57] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:35:57] - 79 	 24.3 	 	 0.1000 	 0.7959 	 0.1648 	 2.2957 	 2.2672 	 0.5901
+[2025/01/16 01:36:15] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:36:15] - 1.8558 	 	 0.7688 	 1.9591 	 0.5623
+[2025/01/16 01:36:41] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:36:41] - 80 	 26.0 	 	 0.1000 	 0.7812 	 0.1597 	 2.2974 	 2.2637 	 0.6499
+[2025/01/16 01:36:58] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:36:58] - 1.8555 	 	 0.7738 	 1.9604 	 0.5625
+[2025/01/16 01:37:23] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:37:23] - 81 	 24.3 	 	 0.1000 	 0.7358 	 0.1546 	 2.2983 	 2.2740 	 0.5696
+[2025/01/16 01:37:41] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:37:41] - 1.8856 	 	 0.7674 	 1.9833 	 0.5642
+[2025/01/16 01:38:05] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:38:05] - 82 	 24.5 	 	 0.1000 	 0.7742 	 0.1500 	 2.3009 	 2.2710 	 0.6083
+[2025/01/16 01:38:23] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:38:23] - 1.8925 	 	 0.7690 	 1.9896 	 0.5633
+[2025/01/16 01:38:47] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:38:47] - 83 	 24.5 	 	 0.1000 	 0.8167 	 0.1500 	 2.3008 	 2.2724 	 0.5912
+[2025/01/16 01:39:05] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:39:05] - 1.9003 	 	 0.7687 	 1.9962 	 0.5634
+[2025/01/16 01:39:29] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:39:29] - 84 	 24.3 	 	 0.1000 	 0.7213 	 0.1500 	 2.3009 	 2.2723 	 0.5906
+[2025/01/16 01:39:47] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:39:47] - 1.9014 	 	 0.7705 	 1.9978 	 0.5656
+[2025/01/16 01:40:11] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:40:11] - 85 	 24.4 	 	 0.1000 	 0.8571 	 0.1500 	 2.3009 	 2.2725 	 0.5866
+[2025/01/16 01:40:29] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:40:29] - 1.9007 	 	 0.7721 	 1.9979 	 0.5662
+[2025/01/16 01:40:54] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:40:54] - 86 	 24.4 	 	 0.1000 	 0.7937 	 0.1500 	 2.3009 	 2.2726 	 0.5859
+[2025/01/16 01:41:11] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:41:11] - 1.8989 	 	 0.7747 	 1.9970 	 0.5668
+[2025/01/16 01:41:36] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:41:36] - 87 	 24.3 	 	 0.1000 	 0.8824 	 0.1500 	 2.3010 	 2.2728 	 0.5838
+[2025/01/16 01:41:54] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:41:54] - 1.8959 	 	 0.7765 	 1.9952 	 0.5684
+[2025/01/16 01:42:18] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:42:18] - 88 	 24.5 	 	 0.1000 	 0.7797 	 0.1500 	 2.3010 	 2.2728 	 0.5850
+[2025/01/16 01:42:36] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:42:36] - 1.8923 	 	 0.7791 	 1.9927 	 0.5701
+[2025/01/16 01:43:01] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:43:01] - 89 	 24.5 	 	 0.1000 	 0.8246 	 0.1500 	 2.3009 	 2.2728 	 0.5832
+[2025/01/16 01:43:18] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:43:18] - 1.8900 	 	 0.7809 	 1.9913 	 0.5680
+[2025/01/16 01:43:44] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:43:44] - 90 	 26.1 	 	 0.1000 	 0.8788 	 0.1500 	 2.3012 	 2.2686 	 0.6380
+[2025/01/16 01:44:02] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:44:02] - 1.8795 	 	 0.7859 	 1.9841 	 0.5657
+[2025/01/16 01:44:27] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:44:27] - 91 	 24.4 	 	 0.1000 	 0.7321 	 0.1500 	 2.2998 	 2.2768 	 0.5533
+[2025/01/16 01:44:44] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:44:44] - 1.8949 	 	 0.7775 	 1.9944 	 0.5688
+[2025/01/16 01:45:09] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:45:09] - 92 	 24.4 	 	 0.1000 	 0.8413 	 0.1500 	 2.3009 	 2.2723 	 0.5937
+[2025/01/16 01:45:27] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:45:27] - 1.8894 	 	 0.7814 	 1.9905 	 0.5687
+[2025/01/16 01:45:51] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:45:51] - 93 	 24.3 	 	 0.1000 	 0.7458 	 0.1500 	 2.3008 	 2.2736 	 0.5786
+[2025/01/16 01:46:09] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:46:09] - 1.8878 	 	 0.7799 	 1.9889 	 0.5682
+[2025/01/16 01:46:33] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:46:33] - 94 	 24.4 	 	 0.1000 	 0.7581 	 0.1500 	 2.3009 	 2.2731 	 0.5835
+[2025/01/16 01:46:51] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:46:51] - 1.8857 	 	 0.7809 	 1.9876 	 0.5682
+[2025/01/16 01:47:15] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:47:15] - 95 	 24.3 	 	 0.1000 	 0.7455 	 0.1500 	 2.3009 	 2.2732 	 0.5813
+[2025/01/16 01:47:33] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:47:33] - 1.8843 	 	 0.7827 	 1.9866 	 0.5673
+[2025/01/16 01:47:57] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:47:57] - 96 	 24.4 	 	 0.1000 	 0.7931 	 0.1500 	 2.3009 	 2.2732 	 0.5784
+[2025/01/16 01:48:15] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:48:15] - 1.8830 	 	 0.7826 	 1.9859 	 0.5670
+[2025/01/16 01:48:39] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:48:39] - 97 	 24.4 	 	 0.1000 	 0.8197 	 0.1500 	 2.3009 	 2.2732 	 0.5793
+[2025/01/16 01:48:57] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:48:57] - 1.8829 	 	 0.7833 	 1.9860 	 0.5690
+[2025/01/16 01:49:22] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:49:22] - 98 	 24.5 	 	 0.1000 	 0.7966 	 0.1500 	 2.3009 	 2.2733 	 0.5783
+[2025/01/16 01:49:39] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:49:39] - 1.8816 	 	 0.7834 	 1.9849 	 0.5677
+[2025/01/16 01:50:04] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:50:04] - 99 	 24.3 	 	 0.0100 	 0.7308 	 0.1500 	 2.3010 	 2.2732 	 0.5802
+[2025/01/16 01:50:21] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:50:21] - 1.8804 	 	 0.7845 	 1.9838 	 0.5681
+[2025/01/16 01:50:47] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:50:47] - 100 	 26.0 	 	 0.0100 	 0.8333 	 0.1500 	 2.3007 	 2.2631 	 0.7072
+[2025/01/16 01:51:05] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:51:05] - 1.8715 	 	 0.7888 	 1.9780 	 0.5677
+[2025/01/16 01:51:29] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:51:29] - 101 	 24.3 	 	 0.0100 	 0.7969 	 0.1500 	 2.3005 	 2.2685 	 0.6457
+[2025/01/16 01:51:47] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:51:47] - 1.8690 	 	 0.7924 	 1.9762 	 0.5697
+[2025/01/16 01:52:12] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:52:12] - 102 	 24.5 	 	 0.0100 	 0.8226 	 0.1500 	 2.3014 	 2.2633 	 0.6908
+[2025/01/16 01:52:29] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:52:29] - 1.8620 	 	 0.7970 	 1.9717 	 0.5706
+[2025/01/16 01:52:54] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:52:54] - 103 	 24.4 	 	 0.0100 	 0.8955 	 0.1500 	 2.3017 	 2.2634 	 0.6876
+[2025/01/16 01:53:12] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:53:12] - 1.8566 	 	 0.8010 	 1.9682 	 0.5717
+[2025/01/16 01:53:36] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:53:36] - 104 	 24.4 	 	 0.0010 	 0.8767 	 0.1500 	 2.3019 	 2.2625 	 0.6944
+[2025/01/16 01:53:54] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:53:54] - 1.8514 	 	 0.8043 	 1.9649 	 0.5741
+[2025/01/16 01:54:18] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:54:18] - 105 	 24.4 	 	 0.0010 	 0.8841 	 0.1500 	 2.3018 	 2.2613 	 0.7082
+[2025/01/16 01:54:36] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:54:36] - 1.8471 	 	 0.8072 	 1.9624 	 0.5750
+[2025/01/16 01:55:01] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:55:01] - 106 	 24.3 	 	 0.0010 	 0.8462 	 0.1500 	 2.3020 	 2.2608 	 0.7111
+[2025/01/16 01:55:18] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:55:18] - 1.8428 	 	 0.8101 	 1.9597 	 0.5767
+[2025/01/16 01:55:43] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:55:43] - 107 	 24.4 	 	 0.0010 	 0.8730 	 0.1500 	 2.3020 	 2.2606 	 0.7125
+[2025/01/16 01:56:01] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:56:01] - 1.8386 	 	 0.8131 	 1.9572 	 0.5770
+[2025/01/16 01:56:25] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:56:25] - 108 	 24.5 	 	 0.0010 	 0.8095 	 0.1500 	 2.3021 	 2.2604 	 0.7128
+[2025/01/16 01:56:43] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:56:43] - 1.8346 	 	 0.8164 	 1.9549 	 0.5774
+[2025/01/16 01:57:08] - Epoch 	 Seconds 	 LR 	 	 Robust 	 Gamma 	 	 Inner Loss 	 Train Loss 	 Train Acc
+[2025/01/16 01:57:08] - 109 	 24.4 	 	 0.0010 	 0.8615 	 0.1500 	 2.3021 	 2.2602 	 0.7171
+[2025/01/16 01:57:25] - Test Loss 	 Test Acc 	 PGD Loss 	 PGD Acc
+[2025/01/16 01:57:25] - 1.8309 	 	 0.8181 	 1.9529 	 0.5761
+[2025/01/16 01:57:30] - [0.7707, 0.772, 0.7705, 0.7708, 0.7719, 0.7738, 0.774, 0.7726, 0.7732, 0.7761, 0.7706, 0.7713, 0.7705, 0.7704, 0.7694, 0.7705, 0.7703, 0.77, 0.7688, 0.7738, 0.7674, 0.769, 0.7687, 0.7705, 0.7721, 0.7747, 0.7765, 0.7791, 0.7809, 0.7859, 0.7775, 0.7814, 0.7799, 0.7809, 0.7827, 0.7826, 0.7833, 0.7834, 0.7845, 0.7888, 0.7924, 0.797, 0.801, 0.8043, 0.8072, 0.8101, 0.8131, 0.8164, 0.8181]
+[2025/01/16 01:57:30] - [0.5527, 0.5548, 0.5552, 0.5572, 0.5568, 0.5575, 0.559, 0.5607, 0.5592, 0.5582, 0.5605, 0.5581, 0.5581, 0.5599, 0.5616, 0.5628, 0.5632, 0.5629, 0.5623, 0.5625, 0.5642, 0.5633, 0.5634, 0.5656, 0.5662, 0.5668, 0.5684, 0.5701, 0.568, 0.5657, 0.5688, 0.5687, 0.5682, 0.5682, 0.5673, 0.567, 0.569, 0.5677, 0.5681, 0.5677, 0.5697, 0.5706, 0.5717, 0.5741, 0.575, 0.5767, 0.577, 0.5774, 0.5761]

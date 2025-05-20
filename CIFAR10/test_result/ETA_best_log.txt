@@ -1,0 +1,64 @@
+[2025/01/17 13:31:48] - Loaded model from CIFAR10_test_models/ETA_best_model.pth
+[2025/01/17 13:32:01] - Starting evaluation with epsilon=0.031373
+[2025/01/17 13:38:35] - AT_models_test_acc: 0.8258
+[2025/01/17 13:38:35] - AT_fgsm_acc: 0.6704
+[2025/01/17 13:38:35] - AT_pgd_acc_10: 0.5808
+[2025/01/17 13:38:35] - AT_pgd_acc_20: 0.5744
+[2025/01/17 13:38:35] - AT_pgd_acc_50: 0.5727
+[2025/01/17 13:38:35] - AT_pgd_cw_acc_20: 0.4984
+initial accuracy: 82.58%
+apgd-ce - 1/17 - 162 out of 500 successfully perturbed
+apgd-ce - 2/17 - 150 out of 500 successfully perturbed
+apgd-ce - 3/17 - 147 out of 500 successfully perturbed
+apgd-ce - 4/17 - 165 out of 500 successfully perturbed
+apgd-ce - 5/17 - 166 out of 500 successfully perturbed
+apgd-ce - 6/17 - 152 out of 500 successfully perturbed
+apgd-ce - 7/17 - 141 out of 500 successfully perturbed
+apgd-ce - 8/17 - 151 out of 500 successfully perturbed
+apgd-ce - 9/17 - 163 out of 500 successfully perturbed
+apgd-ce - 10/17 - 159 out of 500 successfully perturbed
+apgd-ce - 11/17 - 155 out of 500 successfully perturbed
+apgd-ce - 12/17 - 158 out of 500 successfully perturbed
+apgd-ce - 13/17 - 151 out of 500 successfully perturbed
+apgd-ce - 14/17 - 180 out of 500 successfully perturbed
+apgd-ce - 15/17 - 153 out of 500 successfully perturbed
+apgd-ce - 16/17 - 146 out of 500 successfully perturbed
+apgd-ce - 17/17 - 81 out of 258 successfully perturbed
+robust accuracy after APGD-CE: 56.78% (total time 219.9 s)
+apgd-t - 1/12 - 72 out of 500 successfully perturbed
+apgd-t - 2/12 - 77 out of 500 successfully perturbed
+apgd-t - 3/12 - 76 out of 500 successfully perturbed
+apgd-t - 4/12 - 64 out of 500 successfully perturbed
+apgd-t - 5/12 - 79 out of 500 successfully perturbed
+apgd-t - 6/12 - 85 out of 500 successfully perturbed
+apgd-t - 7/12 - 80 out of 500 successfully perturbed
+apgd-t - 8/12 - 81 out of 500 successfully perturbed
+apgd-t - 9/12 - 74 out of 500 successfully perturbed
+apgd-t - 10/12 - 72 out of 500 successfully perturbed
+apgd-t - 11/12 - 85 out of 500 successfully perturbed
+apgd-t - 12/12 - 29 out of 178 successfully perturbed
+robust accuracy after APGD-T: 48.04% (total time 1394.2 s)
+fab-t - 1/10 - 0 out of 500 successfully perturbed
+fab-t - 2/10 - 0 out of 500 successfully perturbed
+fab-t - 3/10 - 0 out of 500 successfully perturbed
+fab-t - 4/10 - 0 out of 500 successfully perturbed
+fab-t - 5/10 - 0 out of 500 successfully perturbed
+fab-t - 6/10 - 0 out of 500 successfully perturbed
+fab-t - 7/10 - 0 out of 500 successfully perturbed
+fab-t - 8/10 - 0 out of 500 successfully perturbed
+fab-t - 9/10 - 0 out of 500 successfully perturbed
+fab-t - 10/10 - 0 out of 304 successfully perturbed
+robust accuracy after FAB-T: 48.04% (total time 3682.3 s)
+square - 1/10 - 0 out of 500 successfully perturbed
+square - 2/10 - 0 out of 500 successfully perturbed
+square - 3/10 - 0 out of 500 successfully perturbed
+square - 4/10 - 0 out of 500 successfully perturbed
+square - 5/10 - 0 out of 500 successfully perturbed
+square - 6/10 - 0 out of 500 successfully perturbed
+square - 7/10 - 0 out of 500 successfully perturbed
+square - 8/10 - 0 out of 500 successfully perturbed
+square - 9/10 - 0 out of 500 successfully perturbed
+square - 10/10 - 0 out of 304 successfully perturbed
+robust accuracy after SQUARE: 48.04% (total time 6384.1 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+AT_autoattack acc: 0.4804%
