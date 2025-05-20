@@ -103,6 +103,8 @@ MIT License
 ## 📚 References
 
 - [WMEP: Improving Fast Adversarial Training with Prior-Guided Knowledge (Paper link)](http://arxiv.org/abs/2304.00202)
-- [AutoAttack: Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks(Paper link)](https://arxiv.org/abs/2003.01690)
+- [TDAT: Taxonomy Driven Fast Adversarial Training (Paper link)](https://ojs.aaai.org/index.php/AAAI/article/view/28330)
+- [ETA: Improving Fast Adversarial Training Paradigm: An Example Taxonomy Perspective (Paper link)](http://arxiv.org/abs/2408.03944)
+- [AutoAttack: Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks (Paper link)](https://arxiv.org/abs/2003.01690)
 
 ## ✉️ Contact
