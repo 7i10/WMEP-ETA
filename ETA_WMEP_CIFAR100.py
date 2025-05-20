@@ -60,9 +60,9 @@ def get_args():
     parser.add_argument('--alpha', default=8, type=float, help='Step size')
     parser.add_argument('--delta-init', default='random', choices=['zero', 'random', 'previous', 'normal'], help='Perturbation initialization method')
     # ouput
-    parser.add_argument('--out-dir', default='TDAT_CIFAR100', type=str, help='Output directory')
+    parser.add_argument('--out-dir', default='CIFAR100', type=str, help='Output directory')
     parser.add_argument('--out-path', default='test', type=str, help='Output path')
-    parser.add_argument('--log', default="output.log", type=str)
+    parser.add_argument('--log', default="test.log", type=str)
     return parser.parse_args()
 
 
@@ -338,9 +338,9 @@ def main():
         logger.info('%.4f \t \t %.4f \t %.4f \t %.4f', test_loss, test_acc, pgd_loss, pgd_acc)            
         if best_result <= pgd_acc:
             best_result = pgd_acc
-            torch.save(model_test.state_dict(), os.path.join(output_path, 'best_model.pth'))
+            torch.save(model_test.state_dict(), os.path.join(output_path, 'test_best_model.pth'))
 
-    torch.save(model_test.state_dict(), os.path.join(output_path, 'last_model.pth'))
+    torch.save(model_test.state_dict(), os.path.join(output_path, 'test_last_model.pth'))
     logger.info(epoch_clean_list)
     logger.info(epoch_pgd_list)
 
