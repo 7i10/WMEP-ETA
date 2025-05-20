@@ -1,6 +1,6 @@
 # WMEP-ETA: Fast Adversarial Training with Efficient Techniques
 
-This repository provides the full code, models, and logs used in our graduation research on adversarial robustness, especially focusing on the WMEP-ETA method for CIFAR-10/CIFAR-100.
+This repository provides the full code, models, and logs used in my graduation research on adversarial robustness, especially focusing on the WMEP-ETA method for CIFAR-10/CIFAR-100.
 
 ---
 
@@ -56,7 +56,7 @@ WMEP-ETA/
 
 ## 🚀 How to Reproduce
 
-We recommend using the interactive notebook for evaluation:
+I recommend using the interactive notebook for evaluation:
 👉 [Open in Google Colab](https://colab.research.google.com/github/7i10/WMEP-ETA/blob/main/run.ipynb)
 
 ---
