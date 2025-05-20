@@ -70,6 +70,7 @@ I recommend using the interactive notebook for evaluation:
 
 
 ![CIFAR-10 Accuracy Curve](./image/cifar10_accuracy_curve.png)
+
 **Figure 1. Accuracy vs Epoch Curve (CIFAR-10)**
 
 ### 🔹 CIFAR-100 Results
