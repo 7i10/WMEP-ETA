@@ -65,35 +65,44 @@ I recommend using the interactive notebook for evaluation:
 
 ### 🔹 CIFAR-10 Results
 
-**Table 1. Accuracy and Robustness Table (CIFAR-10)**
+**Table 1. Accuracy and Robustness (CIFAR-10).**
 ![CIFAR-10 Table](./image/cifar10_results_table.png)
 
 
 ![CIFAR-10 Accuracy Curve](./image/cifar10_accuracy_curve.png)
 
-**Figure 1. Accuracy vs Epoch Curve (CIFAR-10)**
+**Figure 1. Accuracy vs Epoch Curve (CIFAR-10).**
 
 ### 🔹 CIFAR-100 Results
 
-**Table 2. Accuracy and Robustness Table (CIFAR-100)**
+**Table 2. Accuracy and Robustness (CIFAR-100).**
 ![CIFAR-100 Table](./image/cifar100_results_table.png)
 
 
 ![CIFAR-100 Accuracy Curve](./image/cifar100_accuracy_curve.png)
 
-**Figure 2. Accuracy vs Epoch Curve (CIFAR-100)** 
+**Figure 2. Accuracy vs Epoch Curve (CIFAR-100).** 
 
 ---
 
 ## 📦 Pretrained Models
-CIFAR10/test_model/
-CIFAR100/test_model/
 
+You can find the pretrained models here:
+
+- [CIFAR10/test_model/](./CIFAR10/test_model/)
+- [CIFAR100/test_model/](./CIFAR100/test_model/)
+  
 ---
 
 ## 📃 License
+
 MIT License
 
 ---
+
+## 📚 References
+
+- [WMEP: Improving Fast Adversarial Training with Prior-Guided Knowledge (Paper link)](http://arxiv.org/abs/2304.00202)
+- [AutoAttack: Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks(Paper link)](https://arxiv.org/abs/2003.01690)
 
 ## ✉️ Contact
