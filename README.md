@@ -65,19 +65,23 @@ I recommend using the interactive notebook for evaluation:
 
 ### 🔹 CIFAR-10 Results
 
+**Table 1. Accuracy and Robustness Table (CIFAR-10)**
 ![CIFAR-10 Table](./image/cifar10_results_table.png)
-**Figure 1. Accuracy and Robustness Table (CIFAR-10)**  
+
 
 ![CIFAR-10 Accuracy Curve](./image/cifar10_accuracy_curve.png)
-**Figure 2. Accuracy vs Epoch Curve (CIFAR-10)**
+
+**Figure 1. Accuracy vs Epoch Curve (CIFAR-10)**
 
 ### 🔹 CIFAR-100 Results
 
+**Table 2. Accuracy and Robustness Table (CIFAR-100)**
 ![CIFAR-100 Table](./image/cifar100_results_table.png)
-**Figure 3. Accuracy and Robustness Table (CIFAR-100)**
+
 
 ![CIFAR-100 Accuracy Curve](./image/cifar100_accuracy_curve.png)
-**Figure 4. Accuracy vs Epoch Curve (CIFAR-100)** 
+
+**Figure 2. Accuracy vs Epoch Curve (CIFAR-100)** 
 
 ---
 
