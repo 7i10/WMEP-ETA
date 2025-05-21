@@ -2,6 +2,8 @@
 
 This repository provides the code, models, and logs used in my graduation research on adversarial robustness, especially focusing on the WMEP-ETA method for CIFAR-10/CIFAR-100.
 
+📎 [Download Thesis (PDF)](./graduation_thesis.pdf)
+
 ---
 
 ## 🧠 Overview
