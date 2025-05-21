@@ -118,8 +118,18 @@ MIT License
 - [CW: Towards Evaluating the Robustness of Neural Networks](https://arxiv.org/abs/1608.04644)
 - [AutoAttack: Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-Free Attacks](https://arxiv.org/abs/2003.01690)
 
+---
+
 ## 💻 Code Repositories Referenced
 
-- WMEP official implementation: [https://github.com/jiaxiaojunQAQ/FGSM-PGK/tree/main](https://github.com/jiaxiaojunQAQ/FGSM-PGK/tree/main)
+- [WMEP (GitHub)](https://github.com/jiaxiaojunQAQ/FGSM-PGK)**
+  - The `CIFAR10_models/`, `CIFAR100_models/`, and `autoattack/` directories are directly reused.  
+  - The script `ETA_WMEP_CIFAR10.py` and `ETA_WMEP_CIFAR100.py` were partially based on `FGSM_PGK_CIFAR10.py` from the WMEP repository.
+
+- [TDAT (GitHub)](https://github.com/bookman233/TDAT)
+  - The `utils/` module is directly reused.
+  - The script `ETA_WMEP_CIFAR10.py` and `ETA_WMEP_CIFAR100.py` were partially based on `TDAT.py` from the TDAT repository.
+
+---
 
 ## ✉️ Contact
