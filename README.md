@@ -122,7 +122,7 @@ MIT License
 
 ## 💻 Code Repositories Referenced
 
-- [WMEP (GitHub)](https://github.com/jiaxiaojunQAQ/FGSM-PGK)**
+- [WMEP (GitHub)](https://github.com/jiaxiaojunQAQ/FGSM-PGK)
   - The `CIFAR10_models/`, `CIFAR100_models/`, and `autoattack/` directories are directly reused.  
   - The script `ETA_WMEP_CIFAR10.py` and `ETA_WMEP_CIFAR100.py` were partially based on `FGSM_PGK_CIFAR10.py` from the WMEP repository.
 
