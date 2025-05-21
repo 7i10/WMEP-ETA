@@ -58,6 +58,8 @@ WMEP-ETA/
 │
 ├── run.ipynb                    # 実行用ノートブック
 │
+├── graduation_thesis.pdf        # 卒業論文PDF
+│
 └── README.md                    # このファイル
 ```
 ---
