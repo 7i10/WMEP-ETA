@@ -133,3 +133,7 @@ MIT License
 ---
 
 ## ✉️ Contact
+
+If you have any questions, feel free to contact:
+
+📧 sy.9n3vesj[at]gmail.com
