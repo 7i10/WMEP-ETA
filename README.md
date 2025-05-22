@@ -128,7 +128,7 @@ MIT License
 
 - [WMEP (GitHub)](https://github.com/jiaxiaojunQAQ/FGSM-PGK)
   - The `CIFAR10_models/`, `CIFAR100_models/`, and `autoattack/` directories are directly reused.  
-  - The script `ETA_WMEP_CIFAR10.py` and `ETA_WMEP_CIFAR100.py` were partially based on `FGSM_PGK_CIFAR10.py` from the WMEP repository.
+  - The script `ETA_WMEP_CIFAR10.py`, `ETA_WMEP_CIFAR100.py`, `test_cifar10.py` and `test_cifar100.py` were partially based on `FGSM_PGK_CIFAR10.py` from the WMEP repository.
 
 - [TDAT (GitHub)](https://github.com/bookman233/TDAT)
   - The `utils/` module is directly reused.
